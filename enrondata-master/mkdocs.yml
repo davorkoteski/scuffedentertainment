@@ -1,0 +1,30 @@
+site_name: EnronData
+site_url: https://github.com/enrondata/enrondata
+repo_url: https://github.com/enrondata/enrondata.git
+docs_dir: docs
+theme: readthedocs
+pages:
+
+# Introduction:
+- ['index.md', 'Introduction', 'Home']
+- ['introduction.md', 'Introduction', 'Introduction']
+
+## Data:
+- ['data/enron-email-datasets.md', 'Data', 'Enron Email Datasets']
+- ['data/ferc-enron-email-dataset.md', 'Data', 'FERC Enron Email Dataset']
+- ['data/calo-enron-email-dataset.md', 'Data', 'CALO Enron Email Dataset']
+- ['data/edo-enron-email-pst-dataset.md', 'Data', 'EDO Enron Email PST Dataset']
+- ['data/edrm-enron-email-datasets.md', 'Data', 'EDRM Enron Email PST Datasets']
+- ['data/custodian-names-and-titles.md', 'Data', 'Custodian Names and Titles']
+- ['data/cal-anlp-calo-mapping.md', 'Data', 'Cal ANLP to CALO Mapping']
+
+## Processing:
+- ['data/deduplication-and-attachment-stripping.md', 'Processing', 'Deduplication and Attachment Stripping']
+
+## References:
+- ['references/data.md', 'References', 'Data']
+- ['references/research.md', 'References', 'Research']
+- ['references/enron.md', 'References', 'Enron']
+
+## About
+- ['about.md', 'About', 'About']
